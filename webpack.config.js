@@ -52,7 +52,7 @@ module.exports = {
           }
         },
         {
-          urlPattern: new RegExp('https://petgram-server-turo1111.vercel.app'),
+          urlPattern: new RegExp('https://petgram-mz.vercel.app'),
           handler: 'NetworkFirst',
           options: {
             cacheName: 'api'
@@ -76,7 +76,7 @@ module.exports = {
           {
             loader: 'source-map-loader'
           }
-      ]
+        ]
       }
     ]
   }
