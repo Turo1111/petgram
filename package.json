@@ -4,8 +4,7 @@
   "description": "Petgram",
   "main": "index.js",
   "scripts": {
-    "vercel-build": "webpack",
-    "build": "npm run webpack",
+    "build": "webpack",
     "dev": "webpack serve --mode development --history-api-fallback",
     "lint": "standard",
     "lint-fix": "standard --fix",
